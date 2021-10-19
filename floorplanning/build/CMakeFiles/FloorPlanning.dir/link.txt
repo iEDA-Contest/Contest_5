@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -Wall -g2 -ggdb   CMakeFiles/FloorPlanning.dir/test/main.cpp.o CMakeFiles/FloorPlanning.dir/src/floorPlanning.cpp.o CMakeFiles/FloorPlanning.dir/src/gds.cpp.o  -o FloorPlanning 

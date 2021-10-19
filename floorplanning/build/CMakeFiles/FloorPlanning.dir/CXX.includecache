@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yangzonglin/floorplanning/include/floorPlanning.h
+fstream
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+vector
+-
+
+/home/yangzonglin/floorplanning/src/floorPlanning.cpp
+../include/floorPlanning.h
+/home/yangzonglin/floorplanning/include/floorPlanning.h
+

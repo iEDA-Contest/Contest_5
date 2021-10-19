@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/yangzonglin/floorplanning/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-10   -I../include   -O0 -Wall -g2 -ggdb   -std=gnu++17 -o CMakeFiles/FloorPlanning.dir/test/main.cpp.o -c /home/yangzonglin/floorplanning/test/main.cpp",
+  "file": "/home/yangzonglin/floorplanning/test/main.cpp"
+},
+
+{
+  "directory": "/home/yangzonglin/floorplanning/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-10   -I../include   -O0 -Wall -g2 -ggdb   -std=gnu++17 -o CMakeFiles/FloorPlanning.dir/src/floorPlanning.cpp.o -c /home/yangzonglin/floorplanning/src/floorPlanning.cpp",
+  "file": "/home/yangzonglin/floorplanning/src/floorPlanning.cpp"
+},
+
+{
+  "directory": "/home/yangzonglin/floorplanning/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-10   -I../include   -O0 -Wall -g2 -ggdb   -std=gnu++17 -o CMakeFiles/FloorPlanning.dir/src/gds.cpp.o -c /home/yangzonglin/floorplanning/src/gds.cpp",
+  "file": "/home/yangzonglin/floorplanning/src/gds.cpp"
+}
+]
