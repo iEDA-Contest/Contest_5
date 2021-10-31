@@ -1,6 +1,6 @@
 #include "../include/floorPlanning.h"
 
-#define _PRINT_SUB_MODULES
+//#define _PRINT_SUB_MODULES
 
 void DataService::writeGDS()
 {
@@ -30,7 +30,6 @@ void DataService::writeGDS()
         gds_file << "ENDSTR" << std::endl;
         
         //modules boundary
-        uint32_t index = 0;
         for (Module* module : this->getModules())
         {
             #if defined _PRINT_SUB_MODULES
@@ -57,9 +56,9 @@ void DataService::writeGDS()
             #else
 
             gds_file << "BGNSTR" << std::endl;
-            gds_file << "STRNAME " << ++index << std::endl;
+            gds_file << "STRNAME " << module->getName() << std::endl;
             gds_file << "BOUNDARY" << std::endl;
-            gds_file << "LAYER " << index << std::endl;
+            gds_file << "LAYER " << module->getName().substr(1) << std::endl;
             gds_file << "DATATYPE 0" << std::endl;
             gds_file << "XY" << std::endl;
         
@@ -85,7 +84,6 @@ void DataService::writeGDS()
         gds_file << "ENDEL" << std::endl;
 
         //add modules boundary
-        index = 0;
         for (Module* module : this->getModules())
         {
             #if defined _PRINT_SUB_MODULES
@@ -101,7 +99,7 @@ void DataService::writeGDS()
             #else
 
             gds_file << "SREF" << std::endl;
-            gds_file << "SNAME " << ++index << std::endl;
+            gds_file << "SNAME " << module->getName() << std::endl;
             gds_file << "XY 0:0" << std::endl;
             gds_file << "ENDEL" << std::endl;
 

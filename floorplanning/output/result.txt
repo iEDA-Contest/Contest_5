@@ -1,0 +1,48 @@
+Module: M14
+Orient: 1
+Offset :(33.8, 20.3333)
+Module: M9
+Orient: 6
+Offset :(149.15, 245.75)
+Module: M5
+Orient: 3
+Offset :(456.4, 108.75)
+Module: M11
+Orient: 0
+Offset :(158.55, -95.95)
+Module: M1
+Orient: 6
+Offset :(110.35, 150.45)
+Module: M6
+Orient: 6
+Offset :(-17310.1, 356.433)
+Module: M2
+Orient: 6
+Offset :(33.7334, 240.767)
+Module: M16
+Orient: 1
+Offset :(268.4, 372.4)
+Module: M13
+Orient: 0
+Offset :(424.05, 12.25)
+Module: M10
+Orient: 0
+Offset :(345.1, 231.25)
+Module: M7
+Orient: 2
+Offset :(422.05, 201.25)
+Module: M3
+Orient: 0
+Offset :(279.55, 134.2)
+Module: M15
+Orient: 2
+Offset :(128.2, 327.9)
+Module: M4
+Orient: 0
+Offset :(271.467, 216.867)
+Module: M12
+Orient: 2
+Offset :(270.9, 35.6334)
+Module: M8
+Orient: 0
+Offset :(114.8, 6.5)
